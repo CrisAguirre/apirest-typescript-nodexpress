@@ -7,5 +7,15 @@ command list
 >npm run tsc -- --init
 >npm install express -E
 >npm install @types/express -D
->npm run tsc
+>npm run tsc //compila ts
+>npm install ts-node-dev -D
+>ts-node-dev src/index.ts
 >
+>
+>
+>
+>
+>
+>
+>
+

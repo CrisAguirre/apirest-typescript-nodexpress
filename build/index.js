@@ -8,7 +8,7 @@ const app = (0, express_1.default)();
 app.use(express_1.default.json()); // middleware que transforma la req.body a un json
 const PORT = 3000;
 app.get('/ping', (_req, res) => {
-    console.log('someone pinged here!!');
+    console.log('someone pinged here!!' + new Date().toLocaleDateString());
     res.send('pong');
 });
 app.listen(PORT, () => {
