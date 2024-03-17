@@ -10,6 +10,7 @@ command list
 >npm run tsc //compila ts
 >npm install ts-node-dev -D
 >ts-node-dev src/index.ts
+>19:55
 >
 >
 >
@@ -17,5 +18,4 @@ command list
 >
 >
 >
->
-
+npm run dev
